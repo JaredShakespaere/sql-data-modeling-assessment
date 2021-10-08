@@ -12,9 +12,12 @@ def sales_reports(log_file):
 sales_reports(log_file)
 
 # Q.1
-# My guess is that this is a log on data for an produce business. It is logging
-# the date, quantity, and user id. It is also adding in a small explanation of what
-# was delivered to each user
+# line 1- opening the um-server-01.txt file and putting it into a variable called log_file
+# line 4- creating a function called sales_reports and runs the txt file through it
+# line 5- loops through the txt file line by line 
+# line 6- makes a new variable called 'line' and sets it equal to itself minus all the whitespace
+# line 7- creates a new variable called day that contains the data from index 0 and index 3
+# line 8 and 9- creates a conditional statement that says if the day of the week is monday, then print that lines data.
 
 # EXTRA CREDIT
 
